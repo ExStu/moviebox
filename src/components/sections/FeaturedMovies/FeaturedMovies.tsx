@@ -2,7 +2,7 @@ import { FC } from 'react'
 import Container from '../../Container/Container'
 import MovieList from '../../MovieList/MovieList'
 import { ReactComponent as ChevronIcon } from '../../../assets/icons/chevron.svg'
-import styles from './FeaturedMovie.module.scss'
+import styles from './FeaturedMovies.module.scss'
 
 const FeaturedMovies: FC = () => {
   return (

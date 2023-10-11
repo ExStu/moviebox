@@ -1,4 +1,4 @@
-import FeaturedMovies from './components/sections/FeaturedMovies/FeaturedMovie'
+import FeaturedMovies from './components/sections/FeaturedMovies/FeaturedMovies'
 
 function App() {
   return (
