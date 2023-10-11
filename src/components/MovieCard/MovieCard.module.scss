@@ -1,0 +1,84 @@
+.card {
+  position: relative;
+  max-width: 250px;
+
+  .tv {
+    position: absolute;
+    left: 16px;
+    top: 19px;
+    padding: 3px 8px;
+    text-transform: uppercase;
+    border-radius: var(--border-sm);
+    background-color: var(--gray-opacity-50);
+    color: var(--gray-900);
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .favourite {
+    position: absolute;
+    right: 16px;
+    top: 15px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--border-full);
+    padding: 5px;
+    background-color: var(--gray-opacity-50);
+    color: var(--gray-light);
+    cursor: pointer;
+    
+
+    &:hover svg path {
+      fill: var(--red-700);
+      transition: fill .3s ease-in-out;
+    }
+  }
+
+  .image {
+    width: 100%;
+    max-height: 370px;
+    background-color: var(--gray-light);
+  }
+
+  .desc {
+    display: flex;
+    flex-direction: column;
+    padding-top: 12px;
+    gap: var(--gap-card);
+  }
+
+  .date {
+    color: var(--gray-400);
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .title {
+    color: var(--gray-900);
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .ratings {
+    display: flex;
+    justify-content: space-between;
+
+    .imdb, .pomodoro {
+      display: flex;
+      align-items: center;
+      font-size: 12px;
+
+      & img {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .genres {
+    color: var(--gray-400);
+    font-size: 12px;
+  }
+}

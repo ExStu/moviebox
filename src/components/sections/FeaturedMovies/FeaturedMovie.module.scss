@@ -1,0 +1,28 @@
+.featured {
+  padding: 80px 0;
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 44px;
+  }
+
+  .title {
+    color: var(--black);
+    font-size: 36px;
+    font-weight: bold;
+  }
+
+  .more {
+    display: flex;
+    align-items: center;
+    color: var(--red-700);
+    cursor: pointer;
+    font-size: 18px;
+
+    & svg {
+      margin-left: 15px;
+    }
+  }
+}
